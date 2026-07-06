@@ -160,7 +160,7 @@ Pro features may include:
 
 ## 📸 Screenshots
 
-![screenshot](./images/screenshot.jpg)
+<img src="./images/screenshot.jpg" alt="screenshot" height="600">
 
 ---
 
