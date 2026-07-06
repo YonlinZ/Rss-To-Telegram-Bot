@@ -160,7 +160,7 @@ Pro features may include:
 
 ## 📸 Screenshots
 
-> ![screenshot](./screenshot.jpg)
+> ![screenshot](./images/screenshot.jpg)
 
 ---
 
