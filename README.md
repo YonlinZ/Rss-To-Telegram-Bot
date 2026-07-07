@@ -1,197 +1,212 @@
-# 🚀 [RssStream Bot](https://t.me/rssStreamBot)
+# Telegram RSS Bot - RssStream (RSS to Telegram Automation)
 
-**RSS → Telegram automation bot for creators, developers, and community managers**
+RssStream is a Telegram RSS bot that automatically sends RSS feed updates to your Telegram channels and groups.
 
-Automatically deliver RSS feed updates to your Telegram channels or groups in real time.
+If you are looking for a reliable RSS to Telegram bot, RssStream helps you track feeds, push new posts in real time, and manage subscriptions with simple commands.
+
+Open the bot: [Start RssStream on Telegram](https://t.me/rssStreamBot)
 
 ---
 
-## ✨ What is RssStream?
+## Table of Contents
 
-RssStream is a lightweight automation bot that connects **RSS feeds → Telegram**.
+- [What is RssStream](#what-is-rssstream)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Quick Start](#quick-start)
+- [Commands](#commands)
+- [Example Use Cases](#example-use-cases)
+- [Subscription Recovery](#subscription-recovery)
+- [Pricing](#pricing)
+- [FAQ](#faq)
+- [Roadmap](#roadmap)
+- [Screenshot](#screenshot)
+- [Contributing](#contributing)
+- [Feedback](#feedback)
 
-It helps you turn any RSS source into a real-time content delivery pipeline.
+---
+
+## What is RssStream
+
+RssStream is an automation-focused Telegram RSS bot that connects RSS feeds to Telegram delivery.
+
+It is built for creators, developers, and community managers who want RSS updates in Telegram without manual reposting.
 
 Typical use cases:
 
-- 📰 News aggregation channels
-- 📢 Telegram community automation
-- 💻 GitHub release tracking
-- 📚 Blog / content distribution
-- 📊 Monitoring updates from multiple sources
+- News aggregation channels
+- Telegram community automation
+- GitHub release tracking
+- Blog and content distribution
+- Monitoring updates from multiple RSS sources
 
 ---
 
-## ⚡ Key Features
+## Key Features
 
-- 📡 Subscribe to unlimited RSS feeds (based on plan)
-- 🔔 Auto push updates to Telegram channels/groups
-- 🔗 Multi-channel / multi-group support
-- 🧩 Simple commands (`/add`, `/bind`)
-- 🔄 Subscription recovery (important for account changes or loss)
-- ⚙️ Low-latency update delivery
-- 📦 Clean and minimal design (no clutter)
-
----
-
-## 🧠 Why RssStream?
-
-Most RSS tools are either:
-
-- Too heavy (full RSS readers)
-- Too limited (no automation)
-- Not reliable for Telegram delivery
-
-RssStream focuses on one thing only:
-
-> **Reliable RSS → Telegram automation**
-
-No distractions. No complexity.
+- Subscribe to RSS feeds (plan-based limits)
+- Auto-push new RSS items to Telegram channels and groups
+- Multi-channel and multi-group delivery
+- Simple bot commands for feed management (`/add`, `/bind`, `/list`)
+- Subscription recovery for account loss or migration
+- Low-latency update delivery
+- Minimal workflow focused on automation
 
 ---
 
-## ⚙️ How it works
+## How It Works
 
 ```mermaid
 flowchart LR
-A[RSS Feed] --> B[RssStream Bot]
-B --> C[Processing & Filtering]
-C --> D[Telegram Channel / Group]
-````
-
-1. You bind an RSS feed to a channel/group
-2. Bot monitors updates continuously
-3. New articles are pushed instantly to Telegram
-
----
-
-## 🚀 Quick Start
-
-### 1. Start bot
-
-Open Telegram and start:
-
-```
-https://t.me/rssStreamBot
+A[RSS Feed] --> B[RssStream Telegram RSS Bot]
+B --> C[Processing and Filtering]
+C --> D[Telegram Channel or Group]
 ```
 
-### 2. Bind RSS feed
+1. Add or bind an RSS feed to your Telegram destination.
+2. RssStream monitors the feed for new entries.
+3. New posts are delivered to Telegram automatically.
 
+---
+
+## Quick Start
+
+### 1. Start the bot
+
+Open Telegram and launch: [https://t.me/rssStreamBot](https://t.me/rssStreamBot)
+
+### 2. Add or bind a feed
+
+```bash
+/add https://example.com/rss
+/bind <feed_id>
 ```
-/bind https://example.com/rss
-```
 
-### 3. Done 🎉
+### 3. Receive updates
 
-New posts will be delivered automatically.
+RssStream will push new RSS posts to your Telegram channel or group.
 
 ---
 
-## 💬 Example Use Cases
+## Commands
 
-### 📰 Tech News Channel
-
-* Hacker News RSS
-* TechCrunch RSS
-* Product Hunt RSS
-
-### 💰 Crypto Updates
-
-* CoinMarketCap RSS
-* Exchange announcements
-* Token news feeds
-
-### 💻 DevOps / Engineering
-
-* GitHub releases
-* Open-source updates
-* Blog engineering posts
+| Command | Description |
+| --- | --- |
+| `/add <rss_url>` | Add an RSS feed to your account. |
+| `/remove <rss_id>` | Remove a feed from your subscriptions. |
+| `/bind <rss_id_or>` | Bind a feed to a Telegram channel or group. |
+| `/list` | List all RSS subscriptions and bindings. |
+| `/lang` | Change bot language. |
+| `/help` | Show command help and usage examples. |
 
 ---
 
-## 🧩 Commands
+## Example Use Cases
 
-| Command             | Description            |
-| ------------------- | ---------------------- |
-| `/add <rss_url>`    | Bind RSS feed          |
-| `/remove <rss_id>` | Remove feed            |
-| `/bind <rss_id>`    | Bind feed to channel/group|
-| `/list`             | Show all subscriptions |
-| `/lang`             | Change language |
-| `/help`             | Show help menu         |
+### Tech news channel
+
+- Hacker News RSS
+- TechCrunch RSS
+- Product Hunt RSS
+
+### Crypto updates
+
+- CoinMarketCap RSS
+- Exchange announcement feeds
+- Token project news feeds
+
+### DevOps and engineering
+
+- GitHub releases RSS
+- Open-source project updates
+- Engineering blog posts
 
 ---
 
-## 💡 Subscription Recovery (Important Feature)
+## Subscription Recovery
 
-If your Telegram account is lost, changed, or restricted:
+If your Telegram account is lost, changed, or restricted, you can recover your RSS subscriptions using your recovery ID.
 
-👉 You can recover your subscriptions using your recovery ID.
-
-This ensures your RSS automation is never lost.
+This keeps your Telegram RSS automation stable across account changes.
 
 ---
 
-## 💰 Pricing
+## Pricing
 
-| Plan           | Features                          |
-| -------------- | --------------------------------- |
-| Free           | Basic RSS subscriptions, 100 feed |
-| Pro ($5/month) | Higher limits + advanced features |
+| Plan | Features |
+| --- | --- |
+| Free | Basic RSS subscriptions, up to 100 feeds |
+| Pro ($5/month) | Higher limits and advanced features |
 
 Pro features may include:
 
-* More feeds per account
-* Faster delivery priority
-* Advanced filtering rules
-* Priority support
+- More feeds per account
+- Faster delivery priority
+- Advanced filtering rules
+- Priority support
 
 ---
 
-## 📦 Roadmap
+## FAQ
 
-* [ ] RSS keyword filtering
-* [ ] AI summary for articles
-* [ ] Web dashboard
-* [ ] Webhook integrations
-* [ ] Multi-platform support (Discord, Slack)
+### What is the best way to get RSS updates in Telegram?
 
----
+Use a Telegram RSS bot like RssStream, then add and bind your RSS feed so new posts are pushed automatically.
 
-## 📸 Screenshots
+### How do I add an RSS feed to a Telegram group?
 
-<img src="./images/screenshot.jpg" alt="screenshot" height="600">
+Start RssStream, run `/add <rss_url>`, then run `/bind <rss_id>` to connect it to your target group.
 
----
+### Can I follow multiple RSS feeds in one Telegram channel?
 
-## 📣 Why this project exists
+Yes. You can subscribe to multiple feeds and bind them to the same Telegram channel or group.
 
-I built RssStream because I needed a reliable way to:
+### Does this RSS bot support Telegram channels and groups?
 
-* Automate content distribution
-* Avoid manually posting updates
-* Keep Telegram channels active with minimal effort
+Yes. RssStream is designed for both Telegram channels and Telegram groups.
 
-This is a focused tool for people who want **automation, not reading tools**.
+### What happens if I lose my Telegram account?
+
+You can use subscription recovery with your recovery ID to restore your RSS setup.
 
 ---
 
-## 🤝 Contributing
+## Roadmap
+
+- [ ] RSS keyword filtering
+- [ ] AI summary for articles
+- [ ] Web dashboard
+- [ ] Webhook integrations
+- [ ] Multi-platform support (Discord, Slack)
+
+---
+
+## Screenshot
+
+<img src="./images/screenshot.jpg" alt="RssStream Telegram RSS Bot interface for RSS feed subscriptions and Telegram channel delivery" height="600">
+
+---
+
+## Why This Project Exists
+
+RssStream was built to provide a reliable RSS to Telegram automation workflow for teams and creators who want distribution, not a full RSS reader.
+
+---
+
+## Contributing
 
 Pull requests and feature suggestions are welcome.
 
 ---
 
-## 📬 Feedback
+## Feedback
 
-If you have ideas or issues, feel free to open an issue or contact via Telegram.
+If you have ideas or issues, open an issue or contact via Telegram.
 
 ---
 
-## ⭐ Support
+## Support
 
-If you find this project useful, consider giving it a star ⭐
-
-It really helps the project grow.
+If this Telegram RSS bot is useful to you, please give the project a star.
 
 ---
