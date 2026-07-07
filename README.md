@@ -1,4 +1,4 @@
-# 🚀 RssStream Bot
+# 🚀 [RssStream Bot](https://t.me/rssStreamBot)
 
 **RSS → Telegram automation bot for creators, developers, and community managers**
 
