@@ -3,6 +3,12 @@
 [![English](https://img.shields.io/badge/Language-English-blue)](./README.md)
 [![简体中文](https://img.shields.io/badge/语言-简体中文-red)](./README.zh-CN.md)
 
+<p align="center">
+	<a href="https://t.me/rssStreamBot" target="_blank" rel="noopener noreferrer">
+		<img src="./images/logo.png" alt="RssStream Logo - 点击直达 Telegram 机器人" width="160">
+	</a>
+</p>
+
 RssStream 是一个 Telegram RSS 机器人，可将 RSS 订阅更新自动推送到你的 Telegram 频道和群组。
 
 如果你在寻找稳定可靠的 RSS to Telegram 方案，RssStream 可以帮助你追踪订阅源、实时推送新内容，并通过简单命令管理订阅。
